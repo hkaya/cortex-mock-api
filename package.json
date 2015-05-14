@@ -1,0 +1,27 @@
+{
+  "name": "cortex-mock-api",
+  "version": "1.0.0",
+  "description": "Mock Cortex API exposed to the Cortex apps",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hkaya/cortex-mock-api.git"
+  },
+  "author": "Hamza Kaya <hamza@cortexpowered.com> (http://www.cortexpowered.com/)",
+  "license": "GPLv2",
+  "bugs": {
+    "url": "https://github.com/hkaya/cortex-mock-api/issues"
+  },
+  "homepage": "https://github.com/hkaya/cortex-mock-api#readme",
+  "devDependencies": {
+    "coffee-script": "^1.9.2",
+    "gulp": "^3.8.11",
+    "gulp-coffee": "^2.3.1"
+  },
+  "dependencies": {
+    "cortex-scheduler": "^2.2.0"
+  }
+}
